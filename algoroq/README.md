@@ -1,5 +1,12 @@
 # Algoroq
 
-[Introduction to System Design](https://algoroq.io/learn/introduction-to-system-design/fundamentals-of-computing/) — after the DevOps Engineer Path is in motion.
+[Introduction to System Design](https://algoroq.io/learn/introduction-to-system-design/fundamentals-of-computing/)
 
-Computers, networking, storage, REST, databases, caching, and foundations of system design.
+Read on Algoroq. Proof here is **your own words**, not their pages pasted in. One file per chapter. If you cannot explain it without the article open, it is not done.
+
+```
+algoroq/
+  01-fundamentals-of-computers/
+  02-computer-networking-fundamentals/
+  ...
+```
