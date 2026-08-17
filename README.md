@@ -55,3 +55,5 @@ systems/
   boot.dev/     DevOps Engineer Path — local exercises
   algoroq/      Introduction to System Design
 ```
+
+Python files under `boot.dev/python-sandbox/` use normal `#` comments. A `*` or `?` right after `#` is a local note convention (general vs important) for the editor; it is not extra Python syntax. The interpreter ignores the whole line either way.
