@@ -2,7 +2,7 @@
 
 [Introduction to System Design](https://algoroq.io/learn/introduction-to-system-design/fundamentals-of-computing/)
 
-Read on Algoroq. Proof here is **your own words**, not their pages pasted in. One file per chapter. If you cannot explain it without the article open, it is not done.
+Read on Algoroq (that is the textbook). Notes here are a short “say it to a junior” sheet plus anything that actually showed up on a machine (disk sizes, model files). Do not rewrite their articles.
 
 ```
 algoroq/
