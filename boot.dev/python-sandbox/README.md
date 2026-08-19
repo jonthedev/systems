@@ -20,6 +20,8 @@ One file per lesson, so they sort in order:
 
 Re-type the exercise. Do not paste a finished Boot.dev solution in as a second curriculum.
 
+Unit-test lessons (chapter 5 onward): keep **your** code and comments. Do **not** copy Boot.dev’s `main_test.py` / test harness — the site is the grader. See `05-testing-and-debuggings/README.md`. pytest comes later, when we write tests ourselves.
+
 ## Comment colors (Better Comments)
 
 Python only has `#`. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) paints the line if a tag sits right after `#`.
