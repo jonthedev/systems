@@ -1,11 +1,12 @@
 # Filesystems
 
-## pwd
+## cat
 
-Where this shell is.
+Print file(s) to the terminal.
 
 ```bash
-pwd
+cat file1.txt
+cat file1.txt file2.txt
 ```
 
 ## cd / paths
@@ -18,35 +19,13 @@ cd worldbanc              # relative
 cd ..                     # parent
 ```
 
-## home
+## cp
 
-Where you land at login. `~` and `$HOME` are the same path.
-
-```bash
-cd ~
-cd $HOME
-echo $HOME
-```
-
-Do project work here. Leave `/bin`, `/etc`, `/var` alone unless you mean to.
-
-## cat
-
-Print file(s) to the terminal.
+Copy. Original stays. `-R` for directories.
 
 ```bash
-cat file1.txt
-cat file1.txt file2.txt
-```
-
-## grep
-
-Print lines that contain a string. Case-sensitive.
-
-```bash
-grep "hello" words.txt
-grep "hello" hello.txt hello2.txt
-grep -r "hello" .         # this dir and all subdirs
+cp source_file.txt destination/
+cp -R my_dir new_dir
 ```
 
 ## find
@@ -61,6 +40,16 @@ find some_directory -name "*chad*"
 
 Quote the pattern so the shell doesn't expand `*`.
 
+## grep
+
+Print lines that contain a string. Case-sensitive.
+
+```bash
+grep "hello" words.txt
+grep "hello" hello.txt hello2.txt
+grep -r "hello" .         # this dir and all subdirs
+```
+
 ## head / tail
 
 First or last *n* lines. Default 10.
@@ -71,6 +60,18 @@ tail -n 10 file1.txt
 tail -f /var/log/syslog   # follow as it grows
 ```
 
+## home
+
+Where you land at login. `~` and `$HOME` are the same path.
+
+```bash
+cd ~
+cd $HOME
+echo $HOME
+```
+
+Do project work here. Leave `/bin`, `/etc`, `/var` alone unless you mean to.
+
 ## less
 
 Page through a file. Use instead of `more`.
@@ -80,15 +81,6 @@ less file1.txt
 ```
 
 `space` page down · `b` page up · `/` search · `q` quit
-
-## touch
-
-Create empty file if missing. If it exists, only timestamps change — content stays.
-
-```bash
-touch new_file.txt
-touch a.txt b.txt
-```
 
 ## mkdir
 
@@ -107,6 +99,14 @@ mv photo.png images/      # into images/, keep the name
 mv invoice.pdf ../
 ```
 
+## pwd
+
+Where this shell is.
+
+```bash
+pwd
+```
+
 ## rm
 
 Delete. No trash.
@@ -116,11 +116,11 @@ rm some_file.txt
 rm -r some_directory      # directory and everything inside
 ```
 
-## cp
+## touch
 
-Copy. Original stays. `-R` for directories.
+Create empty file if missing. If it exists, only timestamps change — content stays.
 
 ```bash
-cp source_file.txt destination/
-cp -R my_dir new_dir
+touch new_file.txt
+touch a.txt b.txt
 ```
