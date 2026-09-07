@@ -30,12 +30,14 @@ cp -R my_dir new_dir
 
 ## find
 
-Files and dirs by **name**, not contents (`grep` is contents).
+By **name**, not contents (`grep` is contents). `-name` matches files *and* dirs; `-type` narrows it.
 
 ```bash
 find some_directory -name hello.txt
 find some_directory -name "*.txt"
 find some_directory -name "*chad*"
+find some_directory -type d -name "*chad*"   # directories only
+find some_directory -type f -name "*.txt"    # files only
 ```
 
 Quote the pattern so the shell doesn't expand `*`.
