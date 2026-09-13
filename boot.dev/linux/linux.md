@@ -5,5 +5,5 @@
 - [File systems](file-systems.md)
 - [Input/Output](input-output.md)
 - [Local CLI](local-cli.md)
-- Permissions
+- [Permissions](permissions.md)
 - [Programs](programs.md)
